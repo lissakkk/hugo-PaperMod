@@ -1,0 +1,7 @@
+ body {
+    height: 100%;
+    background-color: white !important;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.156) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 0, 0, 0.156) 1px, transparent 1px) !important;
+    background-size: 40px 40px !important;  /* Для мелкой клетки */
+    background-position: -1px -1px !important;
+ }

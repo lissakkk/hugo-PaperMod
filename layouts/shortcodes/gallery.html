@@ -1,0 +1,10 @@
+<div class="gallery-three">
+    {{ range .Page.Resources.ByType "image" | first 3 }}
+    {{ $thumb := .Resize "500x webp" }}
+    <figure>
+        <img src="{{ $thumb.RelPermalink }}"
+             alt="{{ .Name }}"
+             loading="lazy">
+    </figure>
+    {{ end }}
+</div>
